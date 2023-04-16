@@ -1,0 +1,7 @@
+AO = analog output
+DO = digital output
+
+connect the AO to the analog pin of the uno.  
+1023 is the total range of analog. 
+to set the sensitivity, turn the knob of potentiometer and look at the readings. If the readings will be below 512, on board led will be on. If the value is above 512. on board led will be off.
+so set the value/sensitivity accordingly. You set the sensitivity at 520, DO pin will give HIGH signal with slightest amount of noise. Simiilarly, if you set the value to 800, it will take a loud noise for the DO pin to give HIGH signal. 

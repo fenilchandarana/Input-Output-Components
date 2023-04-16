@@ -1,0 +1,5 @@
+sensor		UNO
+
+GND		GND
+VCC		VCC
+SIG		digital pin

@@ -1,0 +1,18 @@
+links to follow
+
+https://www.magnetic-declination.com/
+https://data.aad.gov.au/aadc/calc/dms_decimal.cfm
+https://www.google.com/search?q=degree+to+radian&oq=degree+to+radian&aqs=chrome..69i57.7885j0j1&sourceid=chrome&ie=UTF-8
+
+
+
+
+
+wiring
+
+hmc5883		UNO
+VCC		VCC
+GND		GND
+SCL		SCL/A5
+SDA		SDA/A4
+DRDY		-----------

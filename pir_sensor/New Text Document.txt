@@ -1,0 +1,10 @@
+description screenshot_1
+
+
+sensitivity adjust: rotate the knob clockwise and its sensitivity will increase.  Sensitivity means distance, from how much distance will the pir sensor detect the motion. 
+
+time delay adjust: rotate the knob and the time delay will increase. TIme delay means for how long will the signal remain high after the sensor is triggered from the motion.  SO when there is motion, the signal from the output pin will be HIGH for 5 seconds. If you increase the time delay the output pin will be high for 60 seconds, example
+
+after the sensor is triggered, the output pin will be high for the time you set in time adjust delay and then it will be turned off. it will be off for a fixed amount of time around 4 seconds for both mode- single and repeat trigger. It is kind of reset time it takes. If however there is motion after 2 seconds output pin being low, the output pin will turn on high after completing the 4 second cycle. 
+
+in single trigger the output pin will be high just once and it will turn off no matter if there is movement. in repeat trigger it will reain on until there is motion.

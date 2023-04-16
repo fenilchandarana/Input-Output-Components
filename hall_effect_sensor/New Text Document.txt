@@ -1,0 +1,11 @@
+hall effect sensor		UNO
+
+GND			GND
+VCC			VCC
+DO			digital pin
+or
+AO			analog pin
+
+
+if you connect AO of hall effect sensor to the analog pin of the UNO, the reading will go from 1023 to 71 if there is magnet on top. Reading will be either 1023 or 71 for analog reading. 
+if you connect DO of hall effect sensor to the digital pin of the UNO, the reading will go from 1 to 0.

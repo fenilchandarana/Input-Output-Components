@@ -1,0 +1,10 @@
+these are examples from the mpu6050 library. 
+
+with teapot line commented, you can get the reading of the mpu6050 from the serial monitor
+
+ just uncomment the teapot line from the arduino.ino file and then upload the processing file with correct port name and same baud rate to get the 3d visual of the sensor
+
+for nano you can use  115200 baud rate. For esp32 and UNO, you have to use 9600 baud rate
+
+earlier uno was freezing serial monitor with 115200 baud rate. Now it is working fine with 9600 baud rate. If it still freezes later, you can follow the link below.
+https://forum.arduino.cc/t/mpu6050-freezing-crashing/393676/6
