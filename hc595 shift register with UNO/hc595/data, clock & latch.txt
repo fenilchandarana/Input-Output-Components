@@ -1,0 +1,5 @@
+blue pin = data
+pink pin = clock
+grey pin = latch
+
+orange = 5v
