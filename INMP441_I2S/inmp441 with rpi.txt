@@ -1,0 +1,33 @@
+Step1: connections
+VCC: Connect to 3.3V (not 5V, as the module is rated for 3.3V).
+GND: Connect to ground.
+SCK: Connect to PCM_CLK (GPIO18, Pin 12) on the Raspberry Pi.
+WS: Connect to PCM_FS (GPIO19, Pin 35) on the Raspberry Pi.
+SD: Connect to PCM_DIN (GPIO20, Pin 38) on the Raspberry Pi.
+L/R: Connect on GND
+
+
+
+Step2: config file change
+go to this path
+sudo nano /boot/config.txt
+
+ensure this is uncommented
+dtparam=i2s=on
+dtoverlay=googlevoicehat-soundcard
+
+
+
+Step3: edit ALSA config
+go to this path
+sudo nano /etc/asound.conf
+
+paste this
+pcm.inmp441 {
+    type hw
+    card 0
+    device 0
+    format S16_LE
+    rate 16000
+    channels 1
+}
